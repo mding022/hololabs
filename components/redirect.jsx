@@ -16,7 +16,7 @@ export default function RedirectPage() {
 
     return (
         <div className="flex items-center justify-center h-screen">
-            <h1 className="text-2xl font-bold">Redirecting to English site...</h1>
+            <h1 className="text-2xl font-bold">Redirecting to EN HoloLabs</h1>
         </div>
     );
 }

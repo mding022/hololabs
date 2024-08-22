@@ -70,7 +70,7 @@ export default function Component() {
           >
             Generate Video
           </Button>
-          <Link href="/ae">
+          <Link href="/en/ae">
             <Button className="bg-gray-300 text-black px-8 py-3 rounded-lg hover:bg-gray-400 transition-colors">
               Back
             </Button>
