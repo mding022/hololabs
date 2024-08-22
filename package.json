@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.7",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "easy-react-text-loop": "^1.0.2",
+    "emotion": "^11.0.0",
     "lucide-react": "^0.427.0",
+    "mui": "^0.0.1",
     "next": "14.2.5",
     "radix-ui": "^1.0.1",
     "react": "^18",
