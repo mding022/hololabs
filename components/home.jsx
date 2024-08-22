@@ -89,7 +89,7 @@ export default function Component() {
                 <section className="flex flex-col items-center justify-center px-4 pb-12 pt-28 sm:px-6 lg:px-8">
                     <div className="max-w-2xl text-left">
                         <p className="pb-5 text-4xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-black">
-                    Test Deployment! AI content solution with an extensive library of tools, like&nbsp;
+                    All-in-one AI content solution with an extensive library of tools, like&nbsp;
                             <TextLoop interval="4000">
                                 <span>Holo FaceSwap</span>
                                 <span>AI Image Eraser</span>
