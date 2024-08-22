@@ -142,14 +142,17 @@ export default function Component() {
                 </header>
                 <div>
                     <p className="font-bold pt-8 pl-4 text-xl text-black" >Usage</p>
-                    <p className="font-mono pt-5 pl-4 text-xl text-gray-700">api.hololabs.tech/get_ae?<span className="font-bold bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">params</span></p>
+                    <a href="https://restninja.io/share/f9f06a90634d626ecbcb82cee9f81e3632a4ca2b/1" target="_blank">
+                        <p className="font-mono pt-5 pl-4 text-xl text-gray-700">api.hololabs.tech/get_ae?<span className="font-bold bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1 hover:cursor-pointer hover:underline underline-offset-8">params</span></p>
+                    </a>
                     <p className="font-bold pt-8 pl-4 text-xl text-black" >Description</p>
                     <p className="font-sans pt-5 pl-4 text-xl text-gray-700">Pulls a list of all currently available HoloLabs After Effects templates.</p>
                     <p className="font-bold pt-8 pl-4 text-xl text-black" >Params</p>
-                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">:r</span>&nbsp; specify the return format (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">'json', 'txt', 'verbose-json'</span>)</p>
-                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">:dim</span>&nbsp; filter specific dimension (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">'landscape', 'portrait', 'square'</span>)</p>
-                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">:d</span>&nbsp; return certain duration (s = 10s, m = 30s, l = 60s) (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">'short', 'med', 'long'</span>)</p>
-                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">:p</span>&nbsp; specify another param (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">'a', 'ab', 'abc'</span>)</p>
+                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-0 font-black">:key</span>&nbsp; (requred) HoloLabs API key&nbsp;<span className="font-sans bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1 font-semibold text-blue-500 hover:underline underline-offset-4"><a href="#">Sign in to see key</a></span></p>
+                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-0 font-black">:r</span>&nbsp; specify the return format (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1 font-semibold">'json', 'txt', 'verbose-json'</span>)</p>
+                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-0 font-black">:dim</span>&nbsp; filter specific dimension (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1 font-semibold">'landscape', 'portrait', 'square'</span>)</p>
+                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-0 font-black">:d</span>&nbsp; return certain duration (10s, 30s, 60s) (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1 font-semibold">'short', 'med', 'long'</span>)</p>
+                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-0 font-black">:p</span>&nbsp; specify another param (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1 font-semibold">'a', 'ab', 'abc'</span>)</p>
                 </div>
             </main>
         </div>
