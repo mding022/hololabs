@@ -142,7 +142,7 @@ export default function Component() {
                 </header>
                 <div>
                     <p className="font-bold pt-8 pl-4 text-xl text-black" >Usage</p>
-                    <p className="font-mono pt-5 pl-4 text-xl text-gray-700 bg-slate-300 hover:underline underline-offset-8">api.hololabs.tech/getTemplates?params=""</p>
+                    <p className="font-mono pt-5 pl-4 text-xl text-gray-700 hover:underline underline-offset-8">api.hololabs.tech/getTemplates?params=""</p>
                     <p className="font-bold pt-8 pl-4 text-xl text-black" >Description</p>
                     <p className="font-bold pt-8 pl-4 text-xl text-black" >Params</p>
                 </div>
@@ -172,21 +172,24 @@ function CheckIcon(props) {
 
 function MenuIcon(props) {
     return (
-        <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-        >
-            <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M8 4V8H4V10H8V14H4V16H8V20H10V16H14V20H16V16H20V14H16V10H20V8H16V4H14V8H10V4H8ZM14 14V10H10V14H14Z"
-                fill="currentColor"
-            />
-        </svg>
-    )
+        <Link href="/">
+            <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-8 h-8 transform transition-transform duration-300 ease-in-out hover:scale-120 hover:rotate-90 cursor-pointer"
+            >
+                <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M8 4V8H4V10H8V14H4V16H8V20H10V16H14V20H16V16H20V14H16V10H20V8H16V4H14V8H10V4H8ZM14 14V10H10V14H14Z"
+                    fill="currentColor"
+                />
+            </svg>
+        </Link>
+    );
 }
 
 function SkeletonText({ className }) {
