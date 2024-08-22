@@ -10,6 +10,7 @@ export default function Component() {
     const [current, setCurrent] = useState("ae")
     const [filter1, setFilter1] = useState("Short duration")
     const [filter2, setFilter2] = useState("Long duration")
+    /* Enter the api docs data string that is getting pulled. Change headers and text accordingly */
     useEffect(() => {
         fetch('https://app.kqwl.site/api/holo_ai/webdata?page=ae')
             .then(response => response.text())

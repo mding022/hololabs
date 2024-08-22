@@ -149,6 +149,7 @@ export default function Component() {
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-1 sm:gap-2 md:gap-3 lg:gap-4">
                     {loading ? (
+                        /* No need to change Array(30). This is just a skeleton loader animation. */
                         Array(30).fill().map((_, index) => (
                             <SkeletonCard key={index} />
                         ))
@@ -156,6 +157,8 @@ export default function Component() {
                         <>
                             <TemplateCard imgSrc="/images/beforeandafter.jpg" title={data[1]} subtitle="Simple before and after" />
                             <TemplateCard imgSrc="/images/newtemp.jpg" title={data[2]} subtitle="Three image showcase" />
+                            {/* Replace fillers with a loop for each TemplateCard object. 
+                            Should add number of templates data with the first get data request to save bandwidth. */}
                             {fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}{fillerTemplate(data[3])}
                         </>
                     )}
