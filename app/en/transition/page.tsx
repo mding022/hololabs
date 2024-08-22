@@ -1,4 +1,4 @@
-import Component from "../../components/ae2images";
+import Component from "../../../components/ae2images";
 
 export default function Home() {
   return (

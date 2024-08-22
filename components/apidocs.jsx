@@ -177,7 +177,7 @@ function CheckIcon(props) {
 
 function MenuIcon(props) {
     return (
-        <Link href="/">
+        <Link href="/en/home">
             <svg
                 width="24"
                 height="24"

@@ -1,4 +1,4 @@
-import Component from "../../components/apidocs";
+import Component from "../../../components/main";
 
 export default function Home() {
     return (

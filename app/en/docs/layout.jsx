@@ -1,6 +1,6 @@
 import { Roboto } from 'next/font/google'
 import { cn } from '@/lib/utils'
-import '../globals.css'
+import '../../globals.css'
 
 const fontHeading = Roboto({
     subsets: ['latin'],

@@ -82,7 +82,7 @@ export default function Component() {
                     <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
                         About
                     </Link>
-                    <Link href="/docs" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
+                    <Link href="/en/docs" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
                         API Docs
                     </Link>
                 </nav>
@@ -106,7 +106,7 @@ export default function Component() {
                                 <span>Remove BG</span>
                             </TextLoop>
                         </p>
-                        <Link href="/main">
+                        <Link href="/en/main">
                             <Button>
                                 <p className="font-extrabold text-lg">Try it out</p>
                             </Button>
