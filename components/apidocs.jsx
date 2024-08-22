@@ -141,9 +141,10 @@ export default function Component() {
                     )}
                 </header>
                 <div>
-                    <p className="font-bold pt-8 pl-4 text-lg text-black" >Usage</p>
-                    <p className="font-bold pt-8 pl-4 text-lg text-black" >Description</p>
-                    <p className="font-bold pt-8 pl-4 text-lg text-black" >Params</p>
+                    <p className="font-bold pt-8 pl-4 text-xl text-black" >Usage</p>
+                    <p className="font-mono pt-5 pl-4 text-xl text-gray-700 bg-slate-300 hover:underline underline-offset-8">api.hololabs.tech/getTemplates?params=""</p>
+                    <p className="font-bold pt-8 pl-4 text-xl text-black" >Description</p>
+                    <p className="font-bold pt-8 pl-4 text-xl text-black" >Params</p>
                 </div>
             </main>
         </div>
