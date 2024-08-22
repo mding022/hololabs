@@ -140,6 +140,9 @@ export default function Component() {
                         ">api.hololabs.com/get_ae</span></p>
                     )}
                 </header>
+                <div>
+                    <p className="font-bold pt-4 text-black underline-offset-8 hover:underline" >Usage</p>
+                </div>
             </main>
         </div>
     )
