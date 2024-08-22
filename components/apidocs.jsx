@@ -141,7 +141,7 @@ export default function Component() {
                     )}
                 </header>
                 <div>
-                    <p className="font-bold pt-4 text-black underline-offset-8 hover:underline" >Usage</p>
+                    <p className="font-bold pt-8 pl-4 text-lg text-black underline-offset-8 hover:underline" >Usage</p>
                 </div>
             </main>
         </div>
