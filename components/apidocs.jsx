@@ -136,15 +136,20 @@ export default function Component() {
                     {loading ? (
                         <SkeletonText className="text-3xl" />
                     ) : (
-                        <p className={`text-3xl font-normal text-black ${animate ? "animate-fade-in" : ""}`}> After Effects Get Templates <span className="text-green-500 font-black">GET</span> <span className="font-mono bg-gray-200 px-1 text-black font-normal text-xl
+                        <p className={`text-3xl font-normal text-black ${animate ? "animate-fade-in" : ""}`}> After Effects Get Templates <span className="text-green-500 font-black">GET</span> <span className="font-mono bg-purple-100 px-1 py-0.5 text-black font-normal text-xl rounded-sm
                         ">api.hololabs.com/get_ae</span></p>
                     )}
                 </header>
                 <div>
                     <p className="font-bold pt-8 pl-4 text-xl text-black" >Usage</p>
-                    <p className="font-mono pt-5 pl-4 text-xl text-gray-700 hover:underline underline-offset-8">api.hololabs.tech/getTemplates?params=""</p>
+                    <p className="font-mono pt-5 pl-4 text-xl text-gray-700">api.hololabs.tech/get_ae?<span className="font-bold bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">params</span></p>
                     <p className="font-bold pt-8 pl-4 text-xl text-black" >Description</p>
+                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700">Pulls a list of all currently available HoloLabs After Effects templates.</p>
                     <p className="font-bold pt-8 pl-4 text-xl text-black" >Params</p>
+                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">:r</span>&nbsp; specify the return format (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">'json', 'txt', 'verbose-json'</span>)</p>
+                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">:dim</span>&nbsp; filter specific dimension (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">'landscape', 'portrait', 'square'</span>)</p>
+                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">:d</span>&nbsp; return certain duration (s = 10s, m = 30s, l = 60s) (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">'short', 'med', 'long'</span>)</p>
+                    <p className="font-sans pt-5 pl-4 text-xl text-gray-700"><span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">:p</span>&nbsp; specify another param (<span className="font-mono bg-purple-100 rounded-sm bg-origin-content px-1.5 py-1">'a', 'ab', 'abc'</span>)</p>
                 </div>
             </main>
         </div>
