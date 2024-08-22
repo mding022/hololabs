@@ -1,5 +1,8 @@
 "use client"
 
+/* Add logic to check if user is signed in to cookies. If user is, route to different page.
+Don't make user route to home onboarding page each time */
+
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 

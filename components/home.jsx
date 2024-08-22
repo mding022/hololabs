@@ -87,9 +87,11 @@ export default function Component() {
                     </Link>
                 </nav>
                 <div className="flex items-center space-x-3 relative">
+                    {/* Replace this anchor href with logic for selecting language/region dropdown menu and redirect to correct routing */}
                     <a href="https://hololabs.tech/docs" target="_blank">
-                        <EarthLogo className="h-8 w-8 hover:cursor-pointer" />
+                        <EarthLogo className="h-8 w-8 hover:cursor-pointer"/>
                     </a>
+                    {/* Create sign up page */}
                     <Button><b>Sign Up</b></Button>
                 </div>
             </header>
